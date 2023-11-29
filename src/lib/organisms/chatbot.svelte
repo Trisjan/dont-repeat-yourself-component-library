@@ -134,6 +134,10 @@
         text-indent: 1rem;
     } 
 
+    img{
+        cursor: pointer;
+    }
+
 @media only screen and (max-width: 770px) {
 
     section{

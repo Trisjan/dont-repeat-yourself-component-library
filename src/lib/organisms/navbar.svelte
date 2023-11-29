@@ -93,13 +93,7 @@
                         <i class='bx bx-heart icon' aria-hidden="true"></i>
                         <span class="text nav-text">Reserveringen</span>
                     </a>
-                </li>
-                <li class="nav-link">
-                    <a href="/">
-                        <i class='bx bx-wallet icon' aria-hidden="true"></i>
-                        <span class="text nav-text">Desposito's</span>
-                    </a>
-                </li>             
+                </li>          
             </ul>
         </div>
 
