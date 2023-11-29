@@ -2,21 +2,19 @@
     import { Card, Carrousel, Navbar, Table, Title, Subtitle, Button } from '$lib/index.js';
     export let data;
 
-    function formatTableData(data) {
-        data.uitleengeschiedenis1.map((item) => {
-            return {
-                uitleendatum: item.uitleendatum,
-                title: item.title,
-                author: item.author,
-                category: item.category
-            };
-        });
-    }
+    // function formatTableData(data) {
+    //     data.uitleengeschiedenis1.map((item) => {
+    //         return {
+    //             uitleendatum: item.uitleendatum,
+    //             title: item.title,
+    //             author: item.author,
+    //             category: item.category
+    //         };
+    //     });
+    // }
 
-    console.log("Dit is de data: " + formatTableData(data))
+    // console.log("Dit is de data: " + formatTableData(data))
 </script>
-
-<!-- <Navbar bookImage="https://avatars.githubusercontent.com/u/74552944?v=4"/> -->
 
 <section class="page_section carrousel">
     <Title title="Uitleningen"/>
@@ -54,13 +52,11 @@
     </section>
 </section>
 
-<!-- <Carrousel data={data}/> -->
-
 <section class="page_section">
-    <h2>Uitleengeschiedenis</h2>
+    <Subtitle title="Uitleengeschiedenis"/>
     <p>Hieronder kunt u de uitleengeschiedenis zien</p>
     <Table 
-        tableData={formatTableData(data)}>
+        tableData={data.uitleengeschiedenis1}>
     </Table>
 </section>
 
