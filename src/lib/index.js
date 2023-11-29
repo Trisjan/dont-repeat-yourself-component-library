@@ -24,3 +24,11 @@ export { default as Table } from './molecules/table.svelte'
 // Hier export je alle organisms ------------------------------------------------------------------------------------------------------------
 export { default as Chatbot } from './organisms/chatbot.svelte'
 export { default as Navbar } from './organisms/navbar.svelte'
+
+
+
+// Hier export je alle assets ---------------------------------------------------------------------------------------------------------------
+// Hier export je alle assets ---------------------------------------------------------------------------------------------------------------
+// Hier export je alle assets ---------------------------------------------------------------------------------------------------------------
+export { default as Obalogobig } from './assets/oba-logo-homePage.png'
+export { default as Bookimage } from './assets/boek-image.png'

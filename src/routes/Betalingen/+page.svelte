@@ -20,48 +20,48 @@
 
             <section>
             
-             <ul>
-                 <li>SOORT BETALING</li>
-                 <li>BETAALDATUM</li>
-                 <li>BEDRAG</li>
-                 <li>BETALINGSWIJZE</li>
-                 <li>DETAILS</li>
-             </ul>     
-             <ul>
-                 <li>Contributie</li>
-                 <li>01/08/2023</li>
-                 <li>€19.99</li>
-                 <li>PIN</li>
-                 <li>7394628495</li>
-             </ul>
-             <ul>
-                 <li>Betaling uit deposito</li>
-                 <li>21/07/2023</li>
-                 <li>€25.00</li>
-                 <li>PIN</li>
-                 <li>9749937459</li>
-               </ul>
-             <ul>
-                 <li>Boete</li>
-                 <li>21/07/2023</li>
-                 <li>€2.75</li>
-                 <li>Contant</li>
-                 <li>3845928503</li>
-             </ul>
-             <ul>
-                 <li>Inschrijving</li>
-                 <li>01/06/2023</li>
-                 <li>€1.00</li>
-                 <li>PIN</li>
-                 <li>8648543578</li>
-             </ul>
-             <ul>
-                 <li>Verkopen</li>
-                 <li>01/07/2023</li>
-                 <li>€2.99</li>
-                 <li>PIN</li>
-                 <li>9537905742</li>
-             </ul>
+            <ul>
+                <li>SOORT BETALING</li>
+                <li>BETAALDATUM</li>
+                <li>BEDRAG</li>
+                <li>BETALINGSWIJZE</li>
+                <li>DETAILS</li>
+            </ul>     
+            <ul>
+                <li>Contributie</li>
+                <li>01/08/2023</li>
+                <li>€19.99</li>
+                <li>PIN</li>
+                <li>7394628495</li>
+            </ul>
+            <ul>
+                <li>Betaling uit deposito</li>
+                <li>21/07/2023</li>
+                <li>€25.00</li>
+                <li>PIN</li>
+                <li>9749937459</li>
+            </ul>
+            <ul>
+                <li>Boete</li>
+                <li>21/07/2023</li>
+                <li>€2.75</li>
+                <li>Contant</li>
+                <li>3845928503</li>
+            </ul>
+            <ul>
+                <li>Inschrijving</li>
+                <li>01/06/2023</li>
+                <li>€1.00</li>
+                <li>PIN</li>
+                <li>8648543578</li>
+            </ul>
+            <ul>
+                <li>Verkopen</li>
+                <li>01/07/2023</li>
+                <li>€2.99</li>
+                <li>PIN</li>
+                <li>9537905742</li>
+            </ul>
 
             </section>
 
