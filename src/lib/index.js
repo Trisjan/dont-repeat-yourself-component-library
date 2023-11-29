@@ -9,6 +9,7 @@ export { default as Heading5 } from './atoms/headings/heading5.svelte'
 export { default as Heading6 } from './atoms/headings/heading6.svelte'
 export { default as Link } from './atoms/link.svelte'
 export { default as Button } from './atoms/button.svelte'
+export { default as P } from './atoms/headings/paragraph.svelte'
 
 
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------

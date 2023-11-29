@@ -5,7 +5,7 @@
 <section>
 
     <!-- DESKTOP -->
-    <details class="desktop">
+    <details>
         <summary> Hulp nodig? </summary>
         <summary> Sluit chat </summary>
         
@@ -38,41 +38,6 @@
         
     </details>
 
-    <!-- MOBILE -->
-    <details open class="mobile">
-        <summary> Hulp nodig? </summary>
-        <summary> Sluit chat </summary>
-        
-        <div class="chat">
-            <h3>Vragen over je betalingen?</h3>  
-            
-            <ul class="conversation">
-                <li class="received">
-                    Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?
-                </li>
-                <li class="sent">
-                    Hoe kan ik het tegoed van mijn pas opwaarderen?
-                </li>
-                <li class="received">
-                    Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?
-                </li>
-                <li class="sent">
-                    Hoe kan ik het tegoed van mijn pas opwaarderen?
-                </li>
-            </ul>   
-            
-            <form>
-                <input type="text" placeholder="Typ hier je vraag">
-                <button>
-                    <img src="src/lib/assets/send.svg" height="24" width="24" alt="stuur bericht" loading="lazy">
-                </button>  
-            </form>  
-            
-        </div>
-        
-    </details>
-
-
 </section>
 
 <style>
@@ -81,18 +46,16 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
         width: 33vw;
-        height: 75vh;
-    }
-
-    .desktop{
-        display: none;
+        height: 12rem;    
     }
 
     details{
-        border: solid black 0.2rem;
         background: #E3E9F9;
+    }
+
+    details[open]{
+        border: solid black 0.2rem;
     }
 
     details summary {
