@@ -9,7 +9,7 @@
           <input type="text" id="lname" name="lastname" placeholder="Wachtwoord...">
       
           <input type="submit" value="Log in">
-          <input type="submit" value="Sign up">
+          <a href="/Sign-up">Sign up</a>
         </form>
       </div>
     </body>
@@ -17,6 +17,18 @@
       <style>
         body {
             background-color: #E3E9F9;
+        }
+
+        a {
+            text-decoration: none;
+            width: 20%;
+      background-color: red;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
         }
     input[type=text] {
       text-align: center;
