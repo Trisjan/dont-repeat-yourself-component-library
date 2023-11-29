@@ -79,12 +79,7 @@
         display: flex;
         flex-direction: column;
     }
-
-    .info button {
-        justify-content: space-between;
-
-    }
-
+    
     @media (max-width: 1000px) {
 
         .info > p {
@@ -92,7 +87,7 @@
         }
 
         article {
-            width: 10rem;
+            width: 13rem;
         }
 
         .s__date section > p {
@@ -104,7 +99,7 @@
 
         article {
             scroll-snap-align: center;
-            width: 9rem;
+            width: 13rem;
         }
 
         .s__date {

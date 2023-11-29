@@ -6,7 +6,7 @@
   <section class="home-page">
     <img src="{Obalogobig}" alt="OBA" width="700" height="350" class="home-page__img">
     <article>
-        <h1>Welkom <span> user name</span> bij OBA!</h1>
+        <h1>Welkom <span>Mark Vos</span> bij OBA!</h1>
         <p>Ontdek een wereld vol kennis en verhalen. Onze collectie staat tot uw beschikking, en ons team helpt u graag bij uw zoektocht naar wijsheid. Laat de pagina's uw gids zijn op een avontuurlijke reis door het geschreven woord.</p>
         <a href="/">Mijn lijst</a>
     </article>
@@ -78,7 +78,7 @@
 
 </main>
 <style>
-    main{
+    /* main{
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -89,12 +89,11 @@
     position: absolute;
     top: 0;
     top: 0;
-    left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
     transition: var(--tran-05);
     padding: 5px;
-}
+} */
 
 .home-page{
         padding: 7rem ;
