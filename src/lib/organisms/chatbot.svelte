@@ -9,32 +9,30 @@
         <summary> Hulp nodig? </summary>
         <summary> Sluit chat </summary>
         
-        <div class="chat">
-            
+        <div class="chat">  
             <h3>Vragen over je betalingen?</h3>  
             
-            <div class="conversation">
-                <article class="received">
-                    <p>Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?</p>
-                </article>
-                <article class="sent">
-                    <p>Hoe kan ik het tegoed van mijn pas opwaarderen?</p>
-                </article>
-                <article class="received">
-                    <p>Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?</p>
-                </article>
-                <article class="sent">
-                    <p>Hoe kan ik het tegoed van mijn pas opwaarderen?</p>
-                </article>
-            </div>
+            <ul class="conversation">
+                <li class="received">
+                    Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?
+                </li>
+                <li class="sent">
+                    Hoe kan ik het tegoed van mijn pas opwaarderen?
+                </li>
+                <li class="received">
+                    Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?
+                </li>
+                <li class="sent">
+                    Hoe kan ik het tegoed van mijn pas opwaarderen?
+                </li>
+            </ul>
             
-            <div>
+            <form>
                 <input type="text" placeholder="Typ hier je vraag">
                 <button type="button">
                     <img src="src/lib/assets/send.svg" height="24" width="24" alt="stuur bericht" loading="lazy">
                 </button>  
-            </div>  
-            
+            </form>  
             
         </div>
         
@@ -46,31 +44,29 @@
         <summary> Sluit chat </summary>
         
         <div class="chat">
-            
             <h3>Vragen over je betalingen?</h3>  
             
-            <div class="conversation">
-                <article class="received">
-                    <p>Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?</p>
-                </article>
-                <article class="sent">
-                    <p>Hoe kan ik het tegoed van mijn pas opwaarderen?</p>
-                </article>
-                <article class="received">
-                    <p>Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?</p>
-                </article>
-                <article class="sent">
-                    <p>Hoe kan ik het tegoed van mijn pas opwaarderen?</p>
-                </article>
-            </div>
+            <ul class="conversation">
+                <li class="received">
+                    Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?
+                </li>
+                <li class="sent">
+                    Hoe kan ik het tegoed van mijn pas opwaarderen?
+                </li>
+                <li class="received">
+                    Hoi! Ik ben de chatbot van oba.nl. Waar kan ik je mee helpen?
+                </li>
+                <li class="sent">
+                    Hoe kan ik het tegoed van mijn pas opwaarderen?
+                </li>
+            </ul>   
             
-            <div>
+            <form>
                 <input type="text" placeholder="Typ hier je vraag">
                 <button>
                     <img src="src/lib/assets/send.svg" height="24" width="24" alt="stuur bericht" loading="lazy">
                 </button>  
-            </div>  
-            
+            </form>  
             
         </div>
         
@@ -135,9 +131,13 @@
     .conversation{
         flex-direction: column;
         font-size: 0.9rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem 1rem 1rem;
+        list-style: none;
     }
 
-    article{
+    li{
         display: inline-block;
         background: #F5F5F5;
         border-radius: 0.5rem;
@@ -151,6 +151,12 @@
 
     .sent{
         margin-left: 10vw;
+    }
+
+    form{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem 1rem 1rem;
     }
 
     button{
@@ -188,6 +194,5 @@
         margin: 1rem 0 1rem 1rem;
     }
 }
-
 
 </style>
