@@ -73,6 +73,16 @@
         display: flex;
     }
 
+    .info  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info button {
+        justify-content: space-between;
+
+    }
+
     @media (max-width: 1000px) {
 
         .info > p {

@@ -12,5 +12,6 @@
         color: white;
         background-color: black;
         cursor: pointer;
+        border: solid black;
     }
 </style>

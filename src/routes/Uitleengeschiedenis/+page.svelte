@@ -1,7 +1,6 @@
 <script>
     import { Card, Navbar, Table, Title, Subtitle, Button } from '$lib/index.js';
     export let data;
-    // console.log(data)
 </script>
 
 <!-- <Navbar bookImage="https://avatars.githubusercontent.com/u/74552944?v=4"/> -->
@@ -45,7 +44,8 @@
 <section class="page_section">
     <h2>Uitleengeschiedenis</h2>
     <p>Hieronder kunt u de uitleengeschiedenis zien</p>
-    <Table tableData="{data.uitleengeschiedenis1}">
+    <Table 
+        tableData="{data.uitleengeschiedenis1}">
     </Table>
 </section>
 
