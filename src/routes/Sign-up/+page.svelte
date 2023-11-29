@@ -1,6 +1,6 @@
 <body>
     <h1>> Word nu lid</h1>
-<form action="http://www.ns.nl" autofill>
+<form>
     <fieldset>
       <legend>Persoonlijke Gegevens</legend>
       <label for="Geslacht">Geslacht</label>
@@ -73,9 +73,10 @@
       <p class="feedback">👍</p>
     </fieldset>
 
-    <a href="https://lose-your-head-the-client-case-zeta.vercel.app/" target="_blank">WORD LID</a>
+    <a href="/" target="_blank">WORD LID</a>
   </form>
 </body>
+
 
   <style>
 
