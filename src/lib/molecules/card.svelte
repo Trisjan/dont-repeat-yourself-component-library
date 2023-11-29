@@ -40,6 +40,8 @@
         background-color: #FFFFFF;
         scroll-snap-align: start;
         transition: 0.3s;
+        justify-content: space-between;
+        flex-basis: 100%;
     }
 
     article img {
