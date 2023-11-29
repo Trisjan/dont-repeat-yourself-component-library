@@ -15,7 +15,7 @@ export { default as Button } from './atoms/button.svelte'
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 // Hier export je alle molecules ------------------------------------------------------------------------------------------------------------
 export { default as Card } from './molecules/card.svelte'
-export { default as Carrousel } from './molecules/carrousel.svelte'
+export { default as Carrousel } from './organisms/carrousel.svelte'
 export { default as Table } from './molecules/table.svelte'
 
 
