@@ -1,7 +1,7 @@
 <script>
     export let data
     console.log(data)
-    import logo from '$lib/assets/oba.png';
+    // import logo from '$lib/assets/oba.png';
 </script>
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
 <body>        
         
         <header> 
-            <img src={logo} alt="logo van oba">
+            <!-- <img src={logo} alt="logo van oba"> -->
             <h1>Betalingen</h1>
         </header>
         
