@@ -108,18 +108,16 @@
             </div>
 
                 
-</main>
+        </main>
 
 </body>
 </html>
 
 <style>
-
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@600&display=swap');
     
     *{ 
         margin: 0;
-       font-family: poppins;
+        font-family: poppins;
     }
 
     body{
@@ -131,7 +129,7 @@
         justify-content: space-between;
         margin-left: 17rem;
         margin-top: 1rem;
-        padding-right: 2rem;
+        padding-right: 1rem;
     }
 
     main{
@@ -181,13 +179,23 @@
         max-width: 50vw;
     }
 
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .tegoed{
         display: flex;
         justify-content: space-between;
     }
 
-    .p-tellerstand{
-        margin: 2rem 0;
+    .p-depositos, .p-printtegoed{
+        margin: 1rem 0 0 0;
+    }
+
+    .p-activiteiten, .p-tellerstand{
+        margin: -1rem 0 0 0;
     }
 
     button{
@@ -198,11 +206,7 @@
         cursor: pointer;
     }
 
-    .p-depositos, .p-printtegoed, .p-activiteiten{
-        margin: 2rem 0 0 0;
-    }
-
-    .depositos p:last-of-type{
+    .depositos p:last-of-type, .tellerstand p:last-of-type , .printtegoed p:last-of-type, .activiteiten {
         margin-bottom: 2rem;
     }
 
