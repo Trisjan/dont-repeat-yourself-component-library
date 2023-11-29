@@ -1,6 +1,5 @@
 <script>
-    export let data
-    console.log(data)
+    import { Chatbot, Navbar } from '$lib/index.js';
     // import logo from '$lib/assets/oba.png';
 </script>
 <html lang="en">
@@ -10,10 +9,13 @@
     <title>Document</title>
 </head>
 <body>        
-        
+    <Navbar />
         <header> 
             <!-- <img src={logo} alt="logo van oba"> -->
             <h1>Betalingen</h1>
+
+            <Chatbot/>
+
         </header>
         
         <main>
@@ -65,25 +67,44 @@
 
             </section>
 
-            <div>
+            <div class="personal-info">
 
-            <article class="article-contact"> 
-                <h2>Vragen over uw betalingen?</h2>
-                <p class="p-contact">Onze klantenservice is bereikbaar op werkdagen van 9.00 tot 17.00 uur.</p>
-                <button>Contact</button>
-            </article>
+                <article class="depositos">
+                    <h2>Deposito's</h2>
+                    <p class="p-depositos">Hier kunt u via IDEAL tegoed op uw OBA-pas zetten.</p>
+                    <p>Het bedrag hieronder geeft het huidige tegoed op uw pas aan</p>
+                    <div class="tegoed">
+                        <h3>Leners tegoed</h3>
+                        <button>Toevoegen aan deposito</button>
+                    </div>
+                </article>   
 
-            <article class="depositos">
-                <h2>Deposito's</h2>
-                <p class="p-depositos">Hier kunt u via IDEAL tegoed op uw OBA-pas zetten.</p>
-                <p>Het bedrag hieronder geeft het huidige tegoed op uw pas aan</p>
+                <article class="tellerstand"> 
+                    <h2>Tellerstand abonnement</h2>
+                    <p class="p-tellerstand">Hier kunt u zien hoeveel items u nog kunt lenen met uw abonnement.</p>
+                        <div class="tegoed">
+                            <h3>Beschikbare uitleningen: 8 van de 20</h3>
+                        </div>
+                </article>
+                
+                <article class="printtegoed"> 
+                    <h2>Printtegoed</h2>
+                    <p class="p-printtegoed">Hier kunt u via IDEAL uw printtegoed opwaarderen.</p>
+                    <p>Het bedrag hieronder geeft het huidige printtegoed aan.</p>
+                    <div class="tegoed">
+                        <h3>Printtegoed</h3>
+                        <button>Printtegoed opwaarderen</button>
+                    </div>
+                </article>
 
-                <div class="tegoed">
-                    <h3>Tegoed</h3>
-                    <button>Toevoegen aan deposito</button>
-                </div>
+                <article class="activiteiten"> 
+                    <h2>Activiteiten</h2>
+                    <p class="p-activiteiten">Onze klantenservice is bereikbaar op werkdagen van 9.00 tot 17.00 uur.</p>
+                        <div class="tegoed">
+                            <h3>Beschikbare activiteiten: 7 van de 10</h3>
+                        </div>
+                </article>
 
-            </article>
             </div>
 
                 
@@ -105,9 +126,23 @@
         background: #E4E9F7;
     }
 
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 17rem;
+        margin-top: 1rem;
+        padding-right: 2rem;
+    }
+
+    main{
+        margin-left: 17rem;
+        padding-right: 2rem;
+    }
+
     section{
         width: 60rem;
-        margin-bottom: 3rem;
+        margin-bottom: 8rem;
+        margin-top: -6rem;
     }
 
     img{
@@ -138,16 +173,20 @@
         flex-basis: 100%;
     }
 
-    div{
+    .personal-info{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+        max-width: 50vw;
+    }
+
+    .tegoed{
         display: flex;
         justify-content: space-between;
     }
 
-    .article-contact{
-        width: 30rem;
-    }
-
-    .p-contact{
+    .p-tellerstand{
         margin: 2rem 0;
     }
 
@@ -156,9 +195,10 @@
         color: white;
         border: none;
         padding: 0 1rem;
+        cursor: pointer;
     }
 
-    .p-depositos{
+    .p-depositos, .p-printtegoed, .p-activiteiten{
         margin: 2rem 0 0 0;
     }
 
