@@ -1,3 +1,6 @@
+# Oba mijn omgeving
+![image](https://github.com/Trisjan/dont-repeat-yourself-component-library/assets/74552944/7dec3b0b-1115-43b3-8c1e-57cd2284010a)
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
