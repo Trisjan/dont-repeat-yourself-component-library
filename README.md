@@ -1,41 +1,22 @@
 # Oba mijn omgeving
+De mijn omgeving van OBA
+
+## De opdracht
+We hebben als team een website gemaakt voor de OBA. Het is een "mijn" omgeving en ziet er als volgt uit.
+
 ![image](https://github.com/Trisjan/dont-repeat-yourself-component-library/assets/74552944/7dec3b0b-1115-43b3-8c1e-57cd2284010a)
 
-# create-svelte
+## Technieken
+De volgende technieken zijn gebruikt voor dit project
+- Sveltekit
+- Hygraph
+- Javascript
+- HTML
+- CSS
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Development
+Om het project lokaal te laten runnen en ermee te experimenteren doe je het volgende.
+1. Clone het project
+2. Instal alle packages met gebruik van `npm install` in de terminal
+3. Maak daarna een copy van de example.env en hernoem deze naar .env en geef de waardes aan van hygraph (API key en API url)
+4. Run vervolgens de volgende command in de terminal `npm run dev`
