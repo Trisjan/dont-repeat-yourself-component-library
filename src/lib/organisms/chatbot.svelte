@@ -1,5 +1,5 @@
 <script>
-    
+    import { Send } from "$lib/index";
 </script>
 
 <section>
@@ -30,7 +30,7 @@
             <form>
                 <input type="text" placeholder="Typ hier je vraag">
                 <button type="button">
-                    <img src="src/lib/assets/send.svg" height="24" width="24" alt="stuur bericht" loading="lazy">
+                    <img src="{Send}" height="24" width="24" alt="stuur bericht" loading="lazy">
                 </button>  
             </form>  
             

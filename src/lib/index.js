@@ -33,3 +33,4 @@ export { default as Navbar } from './organisms/navbar.svelte'
 // Hier export je alle assets ---------------------------------------------------------------------------------------------------------------
 export { default as Obalogobig } from './assets/oba-logo-homePage.png'
 export { default as Bookimage } from './assets/boek-image.png'
+export { default as Send } from './assets/send.svg'

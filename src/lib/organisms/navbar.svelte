@@ -100,7 +100,7 @@
         <div class="bottom-content">
             <ul>
                 <li>
-                    <a href="/uitloggen">
+                    <a href="">
                         <i class='bx bx-log-out icon' aria-hidden="true"></i>
                         <span class="text nav-text">Uitloggen</span>
                     </a>
